@@ -14,9 +14,9 @@ public class MainEsercizio2 {
 		}
 		System.out.println();
 
-		SimpleThread t1 = new SimpleThread(myArray, 0, 999);
-		SimpleThread t2 = new SimpleThread(myArray, 1000, 1999);
-		SimpleThread t3 = new SimpleThread(myArray, 2000, 2999);
+		SimpleThread t1 = new SimpleThread(myArray, 0, 1000);
+		SimpleThread t2 = new SimpleThread(myArray, 1000, 2000);
+		SimpleThread t3 = new SimpleThread(myArray, 2000, 3000);
 
 		t1.start();
 		t2.start();
